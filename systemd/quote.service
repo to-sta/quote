@@ -1,0 +1,10 @@
+[Unit]
+Description=A random quote a day
+
+[Service]
+Type=simple
+Restart=on-failure
+ExecStart=/usr/bin/python3 /home/<username>/main.py
+
+[Install]
+WantedBy=default.targe

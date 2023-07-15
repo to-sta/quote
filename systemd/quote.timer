@@ -1,0 +1,12 @@
+[Unit]
+Description=Schedule random quote a day
+RefuseManualStart=no
+RefuseManualStop=no
+
+[Timer]
+OnBootSec=120
+OnCalendar=*-*-* 06:00:00
+Unit=qoute.service
+
+[Install]
+WantedBy=timers.target
