@@ -1,6 +1,6 @@
 # A random quote a day
 
-This is programm that retrieves a quote from https://github.com/lukePeavey/quotable and then sends it via telegram bot.
+This is a program that retrieves a quote from https://github.com/lukePeavey/quotable and then sends it via telegram bot.
 
 ## How to install
 
